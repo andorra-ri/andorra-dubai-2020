@@ -1,0 +1,8 @@
+localization:
+  default: en
+  fallback: en
+  locales:
+    - ca
+    - en
+    - ar
+
