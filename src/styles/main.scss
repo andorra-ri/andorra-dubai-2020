@@ -1,3 +1,5 @@
-:root {
-  font-size: 16px;
-}
+@import
+  'layout',
+  'typography',
+  'media',
+  'components';

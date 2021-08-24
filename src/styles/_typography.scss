@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 1.3;
+  position: relative;
+}
+
+h1 { font-size: 3.5rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+
+p {
+  margin: 1rem 0;
+  position: relative;
+}
+
+em {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

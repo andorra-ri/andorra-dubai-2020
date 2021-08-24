@@ -1,0 +1,17 @@
+img.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+img.item {
+  max-height: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+#main-logo { height: 48px; }

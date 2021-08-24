@@ -1,0 +1,84 @@
+/* Defaults */
+:root {
+  font-size: 15px;
+  font-weight: 200;
+  font-family: 'Poppins', 'Arial', sans-serif;
+
+  --color-bg: #fff;
+  --color-text: #333;
+}
+
+/* Custom reset */
+* { outline: none; }
+
+/* Layout */
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    'main column top'
+    'main column bottom';
+  grid-template-columns: 1fr 35% 20rem;
+  grid-template-rows: repeat(2, 1fr);
+  line-height: 1.5;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: all 1s ease;
+
+  &.dark {
+    --color-bg: #131316;
+    --color-text: #fff;
+  }
+
+  #main {
+    grid-area: main;
+
+    header {
+      display: flex;
+      align-items: center;
+
+      .nav-locales { margin-left: auto; }
+    }
+  }
+
+  #column {
+    grid-area: column;
+    position: relative;
+  }
+
+  #top {
+    grid-area: top;
+    position: relative;
+  }
+
+  #bottom {
+    grid-area: bottom;
+    position: relative;
+  }
+}
+
+/* Components */
+.box {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Modifiers */
+.tinted { background: #f6f6f9; }
+
+/* Helpers */
+.centered { text-align: center; }
+.at-bottom { margin-top: auto; }
+.at-center { margin: auto; }
+
+/* Light / Dark mode */
+@media (prefers-color-scheme: dark) {
+  .wrapper {
+    --color-bg: #131316;
+    --color-text: #fff;
+  }
+}
