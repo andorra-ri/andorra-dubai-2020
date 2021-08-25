@@ -67,6 +67,15 @@
   box-sizing: border-box;
 }
 
+.nav-next {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: auto;
+}
+
 /* Modifiers */
 .tinted { background: #f6f6f9; }
 
