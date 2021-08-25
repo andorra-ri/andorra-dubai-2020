@@ -7,3 +7,5 @@ localization:
     - ar
 
 sections:
+  pavilion:
+    name: pavilion
