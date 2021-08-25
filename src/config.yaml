@@ -22,6 +22,10 @@ sections:
         dateStyle: medium
         timeStyle: short
 
+  discover:
+    name: discover
+    image: https://source.unsplash.com/CkmxBaLOnag/700x900
+
 # Airtable API config
 api:
   base: appohIYQXUkv2twZm

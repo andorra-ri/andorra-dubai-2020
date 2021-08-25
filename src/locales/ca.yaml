@@ -11,3 +11,18 @@ agenda:
   title: Agenda
   explore_events: Explora tots els esdeveniments
 
+discover:
+  tagline: Descobreix
+  whatever: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+tourism:
+  title: Turisme
+  visit: Visita Andorra
+
+business:
+  title: Negocis
+  invest: Inverteix a Andorra
+
+research:
+  title: Recerca
+  join: El que sigui
