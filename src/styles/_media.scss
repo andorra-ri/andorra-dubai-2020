@@ -15,3 +15,10 @@ img.item {
 }
 
 #main-logo { height: 48px; }
+
+.carousel .cover { animation: rescale 1s ease; }
+
+@keyframes rescale {
+  from { transform: scale(1.5); }
+  to { transform: scale(1); }
+}
