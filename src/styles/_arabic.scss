@@ -1,0 +1,19 @@
+/* Arabic RTL */
+.lang-ar {
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+
+  .lang-ca,
+  .lang-en { font-family: 'Poppins', 'Arial', sans-serif; }
+
+  .nav-locales { margin: 0 auto 0 0 !important; }
+
+  .expandable,
+  .expandable .close { @extend .at-left; }
+
+  .arrow::after {
+    @extend .at-left;
+
+    transform: translateY(calc(-50% + 1px)) rotate(135deg);
+  }
+}

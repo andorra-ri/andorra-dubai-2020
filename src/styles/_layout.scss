@@ -24,7 +24,6 @@
   line-height: 1.5;
   background: var(--color-bg);
   color: var(--color-text);
-  transition: all 1s ease;
 
   &.dark {
     --color-bg: #131316;
@@ -83,6 +82,11 @@
 .centered { text-align: center; }
 .at-bottom { margin-top: auto; }
 .at-center { margin: auto; }
+
+.at-left {
+  right: auto !important;
+  left: 0 !important;
+}
 
 /* Light / Dark mode */
 @media (prefers-color-scheme: dark) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div :class="`wrapper lang-${locale}`">
     <main id="main" class="container box">
       <header>
         <img id="main-logo" v-svg-inline src="/images/brand.svg">

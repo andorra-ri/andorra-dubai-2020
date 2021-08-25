@@ -113,10 +113,10 @@ input:checked {
 
   .close {
     position: absolute;
-    right: 1rem;
+    right: 0;
     top: 1rem;
     font-size: 2rem;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     cursor: pointer;
     display: inline-block;
     z-index: 2;
