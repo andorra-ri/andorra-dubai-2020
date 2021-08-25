@@ -17,3 +17,25 @@ sections:
         - https://source.unsplash.com/ff45w7p2T1o/500x900
         - https://source.unsplash.com/GI10ZiPO_3w/1200x900
         - https://source.unsplash.com/JRP-r2nKbLI/1200x900
+    agenda:
+      date:
+        dateStyle: medium
+        timeStyle: short
+
+# Airtable API config
+api:
+  base: appohIYQXUkv2twZm
+  resources:
+    AGENDA:
+      endpoint: agenda
+      options:
+        fields:
+          - from
+          - until
+          - cover
+        sort:
+          from: asc
+        where:
+          constraints: 1
+          active:
+            checked: true
