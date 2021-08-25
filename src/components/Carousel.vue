@@ -77,7 +77,7 @@ export default {
       height: var(--carousel-pagination-size, 6px);
       width: var(--carousel-pagination-size, 6px);
       background: var(--carousel-pagination-color, #fff);
-      border-radius: calc(var(--carousel-pagination-size, 6px) / 2);
+      border-radius: var(--carousel-pagination-radius, 3px);
       margin: var(--carousel-pagination-spacing, 2px);
       transition: all var(--carousel-transition-duration, 1s) ease;
       cursor: pointer;
