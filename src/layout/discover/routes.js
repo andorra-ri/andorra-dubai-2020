@@ -1,7 +1,7 @@
 import Discover from './Discover.vue';
 import Tourism from './Tourism.vue';
 import Business from './Business.vue';
-import Research from './Research.vue';
+import Innovation from './Innovation.vue';
 
 export default [{
   path: '/discover',
@@ -9,7 +9,7 @@ export default [{
     default: Discover,
     column: Tourism,
     top: Business,
-    bottom: Research,
+    bottom: Innovation,
   },
   alias: ['/', '/descobreix'],
 }];

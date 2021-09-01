@@ -1,7 +1,7 @@
 <template>
   <a :href="url" target="blank" class="box">
-    <em>{{ t('research.title') }}</em>
-    <h2 class="at-bottom">{{ t('research.join') }}<span class="arrow" /></h2>
+    <em>{{ t('innovation.title') }}</em>
+    <h2 class="at-bottom">{{ t('innovation.join') }}<span class="arrow" /></h2>
   </a>
 </template>
 
@@ -10,7 +10,7 @@ import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 export default {
-  name: 'Research',
+  name: 'Innovation',
   setup() {
     const { t, locale } = useI18n();
 
