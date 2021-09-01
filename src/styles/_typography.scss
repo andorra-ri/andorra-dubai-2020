@@ -9,8 +9,8 @@ h3 {
   position: relative;
 }
 
-h1 { font-size: 3.5rem; }
-h2 { font-size: 1.75rem; }
+h1 { font-size: min(10vw, 3rem); }
+h2 { font-size: min(7vw, 1.75rem); }
 h3 { font-size: 1.5rem; }
 
 p {

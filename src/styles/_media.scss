@@ -14,7 +14,10 @@ img.item {
   object-fit: contain;
 }
 
-#main-logo { height: 48px; }
+#main-logo {
+  height: 48px;
+  margin: 0.5rem 0;
+}
 
 .carousel .cover { animation: rescale 1s ease; }
 

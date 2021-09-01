@@ -50,6 +50,7 @@ input {
     position: absolute;
     width: 100%;
     height: 100%;
+    max-height: 100%;
     z-index: 1;
     overflow: auto;
     transition: all 0.5s ease 0.25s;
@@ -91,6 +92,7 @@ input:checked {
   & ~ .expandable {
     width: var(--expanded-width);
     height: var(--expanded-height);
+    max-height: var(--expanded-height);
     transition: all 0.5s ease 0.25s;
 
     .container {
