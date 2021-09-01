@@ -2,7 +2,9 @@
   <div :class="`wrapper lang-${locale}`">
     <main id="main" class="container box">
       <header>
-        <img id="main-logo" v-svg-inline src="/images/brand.svg">
+        <router-link to="/">
+          <img id="main-logo" v-svg-inline src="/images/brand.svg">
+        </router-link>
         <nav-locales />
       </header>
       <div class="at-bottom">
