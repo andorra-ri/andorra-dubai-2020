@@ -41,7 +41,6 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 3rem;
     }
   }
 
@@ -61,6 +60,16 @@
   }
 }
 
+#contact {
+  display: flex;
+  justify-content: flex-end;
+
+  section + section::before {
+    content: '|';
+    margin: 0 0.4em 0 0.5em;
+  }
+}
+
 /* Components */
 .box {
   padding: 3rem;
@@ -74,9 +83,9 @@
 .nav-next {
   display: flex;
   align-items: center;
-  text-transform: uppercase;
   font-weight: bold;
-  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 2.5rem;
   margin-left: auto;
 }
 

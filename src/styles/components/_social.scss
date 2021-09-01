@@ -1,0 +1,16 @@
+.nav-social {
+  margin-top: auto;
+  display: inline-flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+
+  li { margin: 0 0.25rem; }
+
+  img,
+  svg {
+    height: 1.5em;
+    width: 1.5em;
+    display: block;
+  }
+}

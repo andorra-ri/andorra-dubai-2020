@@ -6,6 +6,10 @@ localization:
     - en
     - ar
 
+social:
+  twitter: https://www.twitter.com/andorrapavilion
+  instagram: https://www.instagram.com/andorrapavilion2020
+
 sections:
   pavilion:
     name: pavilion

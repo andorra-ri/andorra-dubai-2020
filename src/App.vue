@@ -13,6 +13,7 @@
       <router-link :to="`/${nextSection}`" class="nav-next">
         {{ t(`${nextSection}.tagline`) }}<span class="arrow" />
       </router-link>
+      <contact />
     </main>
     <section id="column">
       <router-view name="column" />
@@ -31,11 +32,12 @@ import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';
 import NavLocales from '/@/layout/NavLocales.vue';
+import Contact from '/@/layout/Contact.vue';
 import config from '/@/config.yaml';
 
 export default {
   name: 'App',
-  components: { NavLocales },
+  components: { NavLocales, Contact },
   setup() {
     const { t, locale } = useI18n();
 
