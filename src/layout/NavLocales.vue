@@ -29,6 +29,7 @@ export default {
 <style lang="scss" scoped>
 .nav-locales {
   display: flex;
+  margin: 0.5rem 0;
   text-transform: uppercase;
 
   li {

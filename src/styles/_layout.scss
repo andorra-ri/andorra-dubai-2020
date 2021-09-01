@@ -35,9 +35,9 @@
 
     header {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
-
-      .nav-locales { margin-left: auto; }
+      justify-content: space-between;
     }
   }
 
