@@ -4,6 +4,22 @@ contact:
   get_in_touch: Contacta'ns
   follow_us: Segueix-nos a
 
+expo:
+  tagline: Andorra a la Expo 2020
+  presence: El Principat d'Andorra és present a l'Expo 2020 organitzada a Dubai (EAU) de l'1 d'octubre de 2021 al 31 de març de 2022. Alineada amb el tema de l'Expo "Connectar ments, crear el futur", Andorra ofereix un conjunt d'experiències i esdeveniments dirigits a descobrir als visitants de l'Expo el nostre petit país de muntanya i els seus potencials.
+  delve: Endinsa’t en un país amb un ampli ventall de possibilitats a través d'una experiència virtual immersiva. Descobreixx el nostre entorn natural, el patrimoni cultural i les oportunitats per invertir i innovar.
+  the_expo: Expo 2020
+  more_info: Saber-ne més
+
+hours:
+  opening: Horaris
+  visitors:
+    title: Visitants
+    days: Dilluns a Diumenge
+  business:
+    title: Oficina
+    days: Diumenge a Dijous
+
 pavilion:
   tagline: El pavelló
   message: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

@@ -11,6 +11,12 @@ social:
   instagram: https://www.instagram.com/andorrapavilion2020
 
 sections:
+  expo:
+    name: expo
+    gallery:
+      slides:
+        - /images/expo_aerial_render.webp
+
   pavilion:
     name: pavilion
     gallery:

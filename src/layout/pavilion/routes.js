@@ -12,7 +12,7 @@ export default [
       top: Agenda,
       bottom: Featured,
     },
-    alias: ['/', '/pavello'],
+    alias: ['/pavello'],
   },
   { path: '/agenda', redirect: '/pavilion?agenda=true' },
 ];

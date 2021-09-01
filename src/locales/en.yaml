@@ -10,6 +10,22 @@ contact:
   get_in_touch: Get in touch
   follow_us: Follow us on
 
+expo:
+  tagline: Andorra at the Expo 2020
+  presence: The Principality of Andorra is present at the Expo 2020 hosted in Dubai (UAE) from 1 October 2021 to 31 March 2022. Aligned to the Expo's theme "Connecting Minds, Creating the Future", Andorra is offering a set of experiences and events aimed to discover to the Expo's visitors our small mountain country and its potentials.
+  delve: Delve into a country with a wide range of possibilities as you go on an immersive virtual experience. Discover our natural environment, cultural heritage, and opportunities to invest and innovate.
+  the_expo: Expo 2020
+  more_info: Know more
+
+hours:
+  opening: Opening hours
+  visitors:
+    title: Visitor hours
+    days: Monday to Sunday
+  business:
+    title: Business hours
+    days: Sunday to Thursday
+
 pavilion:
   tagline: The pavilion
   message: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
