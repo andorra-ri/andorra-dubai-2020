@@ -1,0 +1,54 @@
+@media (orientation: portrait) {
+  .wrapper {
+    grid-template-areas:
+      'main main'
+      'column column'
+      'top bottom';
+    grid-template-rows: min-content 35% 20rem;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto !important;
+    min-height: 100vh;
+  }
+
+  .lang-ar .expandable {
+    right: 0 !important;
+    left: auto !important;
+  }
+
+  input:checked ~ .expandable { width: 100vw !important; }
+
+  #top .expandable {
+    top: auto !important;
+    right: auto !important;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .wrapper {
+    display: block;
+    height: auto;
+  }
+
+  .box { padding: 2rem; }
+  .nav-next { margin: 2rem 0 1rem auto; }
+
+  #column { height: 60vh; }
+
+  /*
+  input:checked {
+    & ~ .expandable {
+      height: auto !important;
+      max-height: 100vh !important;
+    }
+  }
+  */
+
+  #top .expandable {
+    top: 0 !important;
+    right: 0 !important;
+    left: auto;
+    bottom: auto;
+  }
+}

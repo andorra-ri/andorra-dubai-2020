@@ -9,7 +9,10 @@
 }
 
 /* Custom reset */
-* { outline: none; }
+* {
+  outline: none;
+  box-sizing: border-box;
+}
 
 /* Layout */
 .wrapper {
@@ -38,6 +41,7 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 3rem;
     }
   }
 
@@ -64,6 +68,7 @@
   flex-direction: column;
   height: 100%;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 .nav-next {
