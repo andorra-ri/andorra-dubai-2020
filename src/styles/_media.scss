@@ -1,11 +1,23 @@
-img.cover {
-  position: absolute;
+.cover {
+  position: absolute !important;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 0;
+}
+
+.overlay {
+  filter:
+    brightness(85%)
+    contrast(90%)
+    saturate(70%);
+
+  & ~ * {
+    color: #fff;
+    text-shadow: 0 0 1.5em #000;
+  }
 }
 
 img.item {

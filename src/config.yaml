@@ -34,7 +34,15 @@ sections:
 
   discover:
     name: discover
-    image: https://source.unsplash.com/CkmxBaLOnag/700x900
+    gallery:
+      interval: 5
+      pagination: false
+      slides:
+        - /public/images/wellness.webp
+        - /public/images/winter.webp
+        - /public/images/heritage.webp
+        - /public/images/summer.webp
+        - /public/images/shopping.webp
 
 # Airtable API config
 api:
