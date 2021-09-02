@@ -1,10 +1,10 @@
-@media (orientation: portrait) {
+@media screen and (max-width: 992px) {
   .wrapper {
     grid-template-areas:
       'main main'
       'column column'
       'top bottom';
-    grid-template-rows: min-content 35% 20rem;
+    grid-template-rows: content-fill 35% content-fill;
     grid-template-columns: repeat(2, 1fr);
     height: auto !important;
     min-height: 100vh;
@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 576px) {
   .wrapper {
     display: block;
     height: auto;
@@ -35,15 +35,6 @@
   .nav-next { margin: 2rem 0 1rem auto; }
 
   #column { height: 60vh; }
-
-  /*
-  input:checked {
-    & ~ .expandable {
-      height: auto !important;
-      max-height: 100vh !important;
-    }
-  }
-  */
 
   #top .expandable {
     top: 0 !important;
