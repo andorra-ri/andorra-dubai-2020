@@ -21,7 +21,7 @@ export default {
     const { t, locale } = useI18n();
 
     const url = computed(() => {
-      const lang = locale.value === 'ca' ? '' : 'en';
+      const lang = locale.value === 'ca' ? '' : locale.value;
       return `https://www.andorrabusiness.com/${lang}`;
     });
 
