@@ -1,13 +1,13 @@
 title: Andorra · Expo Dubai 2020
 
 contact:
-  get_in_touch: Contacta'ns
-  follow_us: Segueix-nos a
+  get_in_touch: Contacteu-nos
+  follow_us: Seguiu-nos a
 
 expo:
-  tagline: Andorra a la Expo 2020
-  presence: El Principat d'Andorra és present a l'Expo 2020 organitzada a Dubai (EAU) de l'1 d'octubre de 2021 al 31 de març de 2022. Alineada amb el tema de l'Expo "Connectar ments, crear el futur", Andorra ofereix un conjunt d'experiències i esdeveniments dirigits a descobrir als visitants de l'Expo el nostre petit país de muntanya i els seus potencials.
-  delve: Endinsa’t en un país amb un ampli ventall de possibilitats a través d'una experiència virtual immersiva. Descobreixx el nostre entorn natural, el patrimoni cultural i les oportunitats per invertir i innovar.
+  tagline: Andorra a l’Expo 2020
+  presence: El Principat d'Andorra és present a l'Expo 2020 organitzada a Dubai (EAU) del 1 d'Octubre de 2021 fins el 31 de Març de 2022. Lligada amb el tema de l'Expo "Connectar ments, crear el futur", Andorra ofereix un conjunt d'experiències i esdeveniments dirigits a descobrir el nostre petit país de muntanya i les seves potencialitats.
+  delve: Endinseu-vos en un país amb un ampli ventall de possibilitats a través d'una experiència virtual immersiva. Descobriu el nostre entorn natural, el nostre patrimoni cultural i les oportunitats per invertir i innovar.
   the_expo: Expo 2020
   more_info: Saber-ne més
 
@@ -22,8 +22,7 @@ hours:
 
 pavilion:
   tagline: El pavelló
-  message: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  design: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+  message: El pavelló d’Andorra, ubicat al Districte de la Sostenibilitat de l’Expo2020 Dubai, ha estat dissenyat per oferir un tast del seu hàbitat de muntanya amb una barreja de materials de fusta i pedra harmonitzada amb contingut audiovisual innovador. En un viatge de 30 minuts organitzat en 6 àrees diferents tindreu l’oportunitat de descobrir que és el que aquest petit país us pot oferir a vosaltres i al món. Veniu a visitar-nos!
   featured_experience: Experiència destacada
   immersion_360: Immersió 360º
 
@@ -33,16 +32,17 @@ agenda:
 
 discover:
   tagline: Descobreix
-  whatever: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  attractives: Des d’espectaculars estacions d’esquí i camins de muntanya fins a la millor experiència de compres, des d’una atractiva ubicació per a inversions fins a un lloc a on fer créixer el seu negoci, des d’un laboratori vivent a tamany de país fins a un entorn a on iterar les seves idees de forma ràpida i col·laborativa; això és Andorra.
+  possibilities: Exploreu el ventall complet de possibilitats que el nostre país pot oferir-vos i endinseu-vos en les diferents dimensions de turisme, inversió i innovació. Visiteu Andorra, invertiu a Andorra, innoveu a Andorra.
 
 tourism:
   title: Turisme
-  visit: Visita Andorra
+  visit: Visiteu Andorra
 
 business:
   title: Negocis
-  invest: Inverteix a Andorra
+  invest: Invertiu a Andorra
 
 innovation:
   title: Innovació
-  join: Innova a Andorra
+  join: Innoveu a Andorra

@@ -1,6 +1,7 @@
 <template>
   <h1>{{ t('discover.tagline') }}</h1>
-  <p>{{ t('discover.whatever') }}</p>
+  <p>{{ t('discover.attractives') }}</p>
+  <p>{{ t('discover.possibilities') }}</p>
 </template>
 
 <script>

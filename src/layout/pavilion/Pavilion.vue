@@ -1,7 +1,6 @@
 <template>
   <h1>{{ t('pavilion.tagline') }}</h1>
   <p>{{ t('pavilion.message') }}</p>
-  <p>{{ t('pavilion.design') }}</p>
 </template>
 
 <script>

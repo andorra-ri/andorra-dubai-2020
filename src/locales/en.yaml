@@ -12,8 +12,8 @@ contact:
 
 expo:
   tagline: Andorra at the Expo 2020
-  presence: The Principality of Andorra is present at the Expo 2020 hosted in Dubai (UAE) from 1 October 2021 to 31 March 2022. Aligned to the Expo's theme "Connecting Minds, Creating the Future", Andorra is offering a set of experiences and events aimed to discover to the Expo's visitors our small mountain country and its potentials.
-  delve: Delve into a country with a wide range of possibilities as you go on an immersive virtual experience. Discover our natural environment, cultural heritage, and opportunities to invest and innovate.
+  presence: The Principality of Andorra is present at the Expo 2020 hosted in Dubai (UAE) from 1 October 2021 to 31 March 2022. Aligned to the Expo's theme "Connecting Minds, Creating the Future", Andorra is offering a set of experiences and events aimed to discover our small mountain country and its potentials.
+  delve: Delve into a country with a wide range of possibilities as you go on an immersive virtual experience. Discover our natural environment, cultural heritage, and the opportunities to invest and innovate.
   the_expo: Expo 2020
   more_info: Know more
 
@@ -28,10 +28,9 @@ hours:
 
 pavilion:
   tagline: The pavilion
-  message: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  design: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-  featured_experience: Featured experience
-  immersion_360: Immersion 360º
+  message: The Andorra Pavilion, located at the Sustainability District of Expo2020 Dubai, has been designed to offer a taste of its mountain habitat with a mix of wood and stone materials harmonized with innovative AV content. In a 30 minutes journey organized in 6 different areas you will have the opportunity to discover what this tiny country has to offer to you and to the World. Come to visit us!
+  featured_experience: Featured
+  immersion_360: 360º Experience
 
 agenda:
   title: Agenda
@@ -39,7 +38,8 @@ agenda:
 
 discover:
   tagline: Discover
-  whatever: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  attractives: From stunning ski resorts and hiking paths to the best shopping experience, from an attractive investment location to a place where you can grow your business, from a unique country-size living laboratory to an environment to iterate your innovative ideas rapidly and collaboratively; this is Andorra.
+  possibilities: Explore the full range of possibilities that our country can offer to you and deep dive into its touristic, investment and innovation dimensions. Visit Andorra, invest in Andorra, innovate in Andorra.
 
 tourism:
   title: Tourism
