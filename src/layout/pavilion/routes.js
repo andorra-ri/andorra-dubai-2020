@@ -1,7 +1,7 @@
 import Pavilion from './Pavilion.vue';
 import Gallery from './Gallery.vue';
 import Agenda from './Agenda.vue';
-import Featured from './Featured.vue';
+import Hours from './Hours.vue';
 
 export default [
   {
@@ -10,7 +10,7 @@ export default [
       default: Pavilion,
       column: Gallery,
       top: Agenda,
-      bottom: Featured,
+      bottom: Hours,
     },
     alias: ['/pavello'],
   },
