@@ -22,10 +22,10 @@ agenda:
 hours:
   opening: Heures d'ouverture
   visitors:
-    title: Heures de visiteurs
+    title: Visiteurs
     days: De lundi à dimanche
   business:
-    title: Heures de bureau
+    title: Bureau
     days: De dimanche à jeudi
 
 discover:
