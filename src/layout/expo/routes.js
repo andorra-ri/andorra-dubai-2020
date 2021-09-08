@@ -1,7 +1,7 @@
 import Expo from './Expo.vue';
 import Gallery from './Gallery.vue';
 import MoreInfo from './MoreInfo.vue';
-import Hours from './Hours.vue';
+import Map from './Map.vue';
 
 export default [{
   path: '/expo',
@@ -9,7 +9,7 @@ export default [{
     default: Expo,
     column: Gallery,
     top: MoreInfo,
-    bottom: Hours,
+    bottom: Map,
   },
   alias: ['/'],
 }];
