@@ -38,11 +38,11 @@ sections:
       interval: 5
       pagination: false
       slides:
-        - /public/images/wellness.webp
-        - /public/images/winter.webp
-        - /public/images/heritage.webp
-        - /public/images/summer.webp
-        - /public/images/shopping.webp
+        - /images/wellness.webp
+        - /images/winter.webp
+        - /images/heritage.webp
+        - /images/summer.webp
+        - /images/shopping.webp
 
 # Airtable API config
 api:
