@@ -6,21 +6,21 @@ contact:
 
 expo:
   tagline: L’Andorre à l’Expo 2020
-  presence: La Principauté d'Andorre est présente à l'Expo 2020 organisée à Dubaï (EAU) du 1er octobre 2021 au 31 mars 2022. S'alignant sur le thème de l'Expo "Connecter les esprits, créer l'avenir", l'Andorre propose un ensemble d'expériences et d'événements visant à faire découvrir notre petit pays de montagne et leurs potentialités.
   delve: Plongez dans un pays offrant un large éventail de possibilités au cours d'une expérience virtuelle immersive. Découvrez notre environnement naturel, notre patrimoine culturel et les possibilités d'investir et d'innover.
-  the_expo: Expo 2020 Dubai UAE
+  presence: La Principauté d'Andorre est présente à l'Expo 2020 organisée à Dubaï (EAU) du 1er octobre 2021 au 31 mars 2022. S'alignant sur le thème de l'Expo "Connecter les esprits, créer l'avenir", l'Andorre propose un ensemble d'expériences et d'événements visant à faire découvrir notre petit pays de montagne et ses potentialités.
+  the_expo: Expo 2020 Dubaï UAE
   more_info: En savoir plus
 
 location:
-  district: District Durabilité
+  district: Quartier Durabilité
   find_us: Trouvez-nous
 
 pavilion:
-  tagline: Le Pavillon
+  tagline: Le pavillon
   message: Le pavillon de l'Andorre, situé dans le Quartier de la Durabilité de l'Expo2020 de Dubaï, a été conçu pour offrir un avant-goût de son habitat de montagne avec un mélange de matériaux en bois et en pierre harmonisés avec un contenu audiovisuel innovant. Au cours d'un voyage de 30 minutes organisé en 6 zones différentes, vous aurez l'occasion de découvrir ce que ce petit pays peut vous offrir à vous et au monde. Venez nous rendre visite!
 
 agenda:
-  title: Agenda
+  title: Programme
   explore_events: Explorez tous les événements
 
 hours:
@@ -42,7 +42,7 @@ tourism:
   visit: Visitez l'Andorre
 
 business:
-  title: Enterprise
+  title: Entreprise
   invest: Investissez en Andorre
 
 innovation:
