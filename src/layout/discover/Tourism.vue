@@ -2,7 +2,7 @@
   <a :href="url" target="blank" class="box">
     <carousel v-bind="gallery" class="cover overlay">
       <template #default="{ slide }">
-        <img :src="slide" draggable="false" class="cover">
+        <webp-image :src="slide" draggable="false" class="cover" />
       </template>
     </carousel>
     <em>{{ t('tourism.title') }}</em>
@@ -14,11 +14,12 @@
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Carousel from '/@/components/Carousel.vue';
+import WebpImage from '/@/components/WebpImage.vue';
 import config from '/@/config.yaml';
 
 export default {
   name: 'Tourism',
-  components: { Carousel },
+  components: { Carousel, WebpImage },
   setup() {
     const { t, locale } = useI18n();
     const { gallery } = config.sections.discover;

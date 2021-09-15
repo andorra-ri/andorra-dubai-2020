@@ -15,7 +15,7 @@ sections:
     name: expo
     gallery:
       slides:
-        - /images/expo_aerial_render.webp
+        - /images/expo_aerial_render
 
   pavilion:
     name: pavilion
@@ -38,11 +38,11 @@ sections:
       interval: 5
       pagination: false
       slides:
-        - /images/wellness.webp
-        - /images/winter.webp
-        - /images/heritage.webp
-        - /images/summer.webp
-        - /images/shopping.webp
+        - /images/wellness
+        - /images/winter
+        - /images/heritage
+        - /images/summer
+        - /images/shopping
 
 # Airtable API config
 api:
