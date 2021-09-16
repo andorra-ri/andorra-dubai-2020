@@ -1,7 +1,10 @@
 <template>
   <h1>{{ t('expo.tagline') }}</h1>
   <p>{{ t('expo.presence') }}</p>
-  <p>{{ t('expo.delve') }}</p>
+  <blockquote>
+    <p>{{ t('expo.quote') }}</p>
+    <span>Marc Galabert - {{ t('expo.cg') }}</span>
+  </blockquote>
 </template>
 
 <script>
