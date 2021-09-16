@@ -1,5 +1,10 @@
 <template>
   <h1>{{ t('pavilion.tagline') }}</h1>
+  <blockquote>
+    <p>
+      <big>Andorra: Innovation Living Lab</big>
+    </p>
+  </blockquote>
   <p>{{ t('pavilion.message') }}</p>
 </template>
 
