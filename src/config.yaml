@@ -23,10 +23,9 @@ sections:
       interval: 5
       pagination: true
       slides:
-        - https://source.unsplash.com/vJum6EAVEC8/900x900
-        - https://source.unsplash.com/ff45w7p2T1o/500x900
-        - https://source.unsplash.com/GI10ZiPO_3w/1200x900
-        - https://source.unsplash.com/JRP-r2nKbLI/1200x900
+        - /images/outdoors
+        - /images/model3d
+        - /images/videowall
     agenda:
       date:
         dateStyle: medium
