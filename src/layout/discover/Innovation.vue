@@ -1,5 +1,5 @@
 <template>
-  <a :href="url" target="blank" class="box">
+  <a href="https://www.ari.ad" target="blank" class="box">
     <em>{{ t('innovation.title') }}</em>
     <h2 class="at-bottom">{{ t('innovation.join') }}<span class="arrow" /></h2>
   </a>
