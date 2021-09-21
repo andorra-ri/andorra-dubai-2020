@@ -21,7 +21,8 @@
           :class="{ 'has-passed': hasPassed(event) }">
           <em>{{ eventDate(event) }}</em>
           <h3>{{ event[`name_${locale}`] }}</h3>
-          <p>{{ event[`description_${locale}`] }}</p>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p class="formatted" v-html="parse(event[`description_${locale}`])" />
         </li>
       </ul>
     </div>
@@ -48,6 +49,8 @@ export default {
 
     const hasPassed = ({ from, until }) => new Date(until || from) < new Date();
 
+    const parse = text => text.replace(/((?:http(?:s)?:\/\/)?(?:w{3}\.)?([\w.-]+(?:\.[\w.-]+))+[\w\-._~:/?#[\]@!$&'()*+,;=.]+)/g, '<a href="$1" target="blank">$2</a> ');
+
     const eventDate = event => {
       const formatter = new Intl.DateTimeFormat(locale.value, bla.date);
       const from = formatter.format(new Date(event.from));
@@ -62,7 +65,7 @@ export default {
     watch(locale, loadAgenda);
     onMounted(() => loadAgenda());
 
-    return { t, locale, query, agenda, hasPassed, eventDate };
+    return { t, locale, query, agenda, hasPassed, eventDate, parse };
   },
 };
 </script>
