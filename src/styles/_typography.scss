@@ -53,12 +53,14 @@ blockquote {
     left: -1rem;
     font-size: 15rem;
     font-family: 'Times New Roman', Times, serif;
-    color: #00000010;
+    color: var(--color-text);
+    opacity: 0.125;
     letter-spacing: -1.5rem;
   }
 
   p {
-    color: #0005;
+    color: var(--color-text);
+    opacity: 0.5;
     font-size: 1.125rem;
     line-height: 1.25;
   }
